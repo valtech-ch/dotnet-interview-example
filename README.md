@@ -1,16 +1,19 @@
 # IC .Net interview example
-In this coding example you will work an a existing solution and do some refactoring and also build some extensions for it.
-## Task
+The topic of this coding example is a task list. When you download the repository, everything is already built so the application can display a list of tasks, also the application will already contain a set of tasks - those tasks are the ones you should work on during this coding example. They are about refactoring of the existing code base and adding some extensions to it and one of the tasks is only about answering some questions.
+
+## What should you do?
 - Spend 2-3 hours working on the example
 - Setup the solution as described in the "Setup" below
 - Follow the "Guidelines" described below for your development
 - The tasks you need to solve you find in the application itself as soon as you start and open it in your browser
 - There are many tasks which in total will most probably take longer then 2-3 hours. So spend your time on the tasks which show us your skills best
+
 ## Guidelines
 - Work in a public github repository so we can review your code
 - Use best practices whenever you can
 - Use gitflow and work on seperarte branches for each task
 - Before submitting the code to us make sure you merged everything back to master branch cause this is the branch we will review
+
 ## Setup
 - Download this repo to your machine
 - Create a public github repo on your account
