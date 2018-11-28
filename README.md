@@ -1,5 +1,5 @@
 # IC .Net interview example
-The topic of this coding example is a task list. When you download the repository, everything is already built so the application can display a list of tasks, also the application will already contain a set of tasks - those tasks are the ones you should work on during this coding example. They are about refactoring of the existing code base and adding some extensions to it and one of the tasks is only about answering some questions.
+The topic of this coding example is a task list. When you download the repository, everything is already built so the application can display a list of tasks, also the application will already contain a set of tasks - those tasks are the ones you should work on during this coding example. They are about refactoring the existing code base, adding some extensions to it or only answering some questions.
 
 ## What should you do?
 - Spend 2-3 hours working on the example
