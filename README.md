@@ -5,7 +5,7 @@ The topic of this coding example is a task list. When you download the repositor
 - Spend 2-3 hours working on the example
 - Setup the solution as described in the "Setup" below
 - Follow the "Guidelines" described below for your development
-- The tasks you need to solve you find in the application itself as soon as you start and open it in your browser
+- You will find the tasks you need to solve in the application itself
 - There are many tasks which in total will most probably take longer then 2-3 hours. So spend your time on the tasks which show us your skills best
 
 ## Guidelines
