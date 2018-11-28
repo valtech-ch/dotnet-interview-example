@@ -16,10 +16,11 @@ In this coding example you will work an a existing solution and do some refactor
 - Create a public github repo on your account
 - Commit to code to your repo
 - Open the solution at /src/IC.DotNet.Interview.sln in your Visual studio
+- Restore nuget packages for the solution
 - In the class IC.DotNet.Interview.Core.Database.DbContext edit the const field DATABASE_PATH to a path in the root of your repo eg. @"C:\Source\database.json" if your repository is placed at C:\Source.
 - Start the application from visual studio
 - You should see the task list for this example in your browser now
-- Make sure the file database.json was created were you expected and is controlled by your git repo
+- Make sure the file database.json was created where you expected and is commited to your git repo
 
 ## Need help?
 If you should have any problems during the setup or the work on the project don't hesitate to contact your contact for the interview
