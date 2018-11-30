@@ -137,7 +137,7 @@ namespace IC.DotNet.Interview.Core.Database
                 Id = Guid.NewGuid(),
                 AssignedUserId = candidateUserGuid,
                 Title = "Edit functionality for tasks",
-                Description = "The task list already has a button which should lead to the edit functionality<br />" +
+                Description = "The 'Edit' button below should lead to the edit functionality of a task.<br />" +
                 "Build everything needed so the user can edit an existing task."
             });
 
@@ -146,7 +146,7 @@ namespace IC.DotNet.Interview.Core.Database
                 Id = Guid.NewGuid(),
                 AssignedUserId = candidateUserGuid,
                 Title = "Store DateCreated, LastUpdated, UserCreatedId, UserLastUpdatedId for all datatypes",
-                Description = "Make sure the database stores for all types the date and time when an entry was created and last updated<br />" +
+                Description = "Make sure the database stores for all data types the date and time when an entry was created and last updated<br />" +
                 "Also store the user which created and last updated an element in the database."
             });
 
@@ -156,7 +156,7 @@ namespace IC.DotNet.Interview.Core.Database
                 AssignedUserId = candidateUserGuid,
                 Title = "Build authentication functionality",
                 Description = "The Login functionality already exists<br />" +
-                "In the login form a user can enter username and password, when the credentials were correct, the backend stores the user id of the current user in a cookie in the browser.<br />" +
+                "In the login form a user can enter username and password (use username: candidate and password: candidate for your tests), when the credentials were correct, the backend stores the user id of the current user in a cookie in the browser.<br />" +
                 "When the user clicks logout, the cookie is deleted.<br />" +
                 "Now build the functionality which ensures the following:<br />" +
                 "-tasks can only be seen if logged in<br />" +
@@ -172,7 +172,7 @@ namespace IC.DotNet.Interview.Core.Database
                 AssignedUserId = candidateUserGuid,
                 Title = "Build commentary function",
                 Description = "Build a function which allows to comment in tasks.<br />" +
-                "The UI should display all comments (with the create date and the user who created it) in the detail view of a task"
+                "The UI should display all comments (with the create date and the user who created it)."
             });
 
             database.Tasks.Add(new Task
@@ -192,7 +192,7 @@ namespace IC.DotNet.Interview.Core.Database
                 AssignedUserId = adminUserGuid,
                 Title = "Review the work of the interview candidate",
                 Description = "This task is not for you as the candidate of the interview<br />" +
-                "It is here for you to check if the authorization works cause it is assigned to the adminstrator.<br />" +
+                "It is here for you to check if the authorization works cause it is assigned to the interviewer.<br />" +
                 "When you fix the authorization task you should not see this anymore as a candidate."
             });
 
