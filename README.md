@@ -8,6 +8,7 @@ The topic of this coding example is a task list. When you download the repositor
 - You will find the tasks you need to solve in the application itself once you start and open it in your browser
 - There are many tasks which in total will most probably take longer then 2-3 hours. Nevertheless try to work on each task. For the tasks you can't solve in the time, add some comments in the solution where and how you would solve it (e.g. pseudocode).
 - The tasks in the example are ordered by complexity (easier tasks at the top), the are created to cover technical skills from junior up to senior level. If you don't know how to solve a task, try to explain your steps on how you would tackle the task.
+- When you are done with the task, send us an email with a link to your repository.
 
 ## Guidelines
 - Work in a public github repository so we can review your code
