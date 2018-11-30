@@ -16,7 +16,7 @@ The topic of this coding example is a task list. When you download the repositor
 - Before submitting the code to us make sure you merged everything back to master branch cause this is the branch we will review
 
 ## Setup
-- Download this repo to your machine
+- Download this repo as a zip to your machine
 - Create a public github repo on your account
 - Commit to code to your repo
 - Open the solution at /src/IC.DotNet.Interview.sln in your Visual studio
