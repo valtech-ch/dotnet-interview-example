@@ -1,7 +1,4 @@
-﻿using Newtonsoft.Json;
-using System.Collections.Generic;
-
-namespace IC.DotNet.Interview.Core.Models
+﻿namespace IC.DotNet.Interview.Core.Models
 {
     public class User : BaseModel
     {

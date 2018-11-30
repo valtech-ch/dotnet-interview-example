@@ -1,5 +1,4 @@
-﻿using IC.DotNet.Interview.Core.Repositories;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace IC.DotNet.Interview.Core.Database
 {

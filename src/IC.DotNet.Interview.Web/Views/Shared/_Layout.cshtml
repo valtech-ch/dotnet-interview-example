@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light mb-5">
-        <a class="navbar-brand" href="#">IC .Net interview example</a>
+        @Html.ActionLink("IC .Net interview example", "Index", "Task", null, new { @class = "nav-brand" })
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,9 +17,12 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    @Html.ActionLink("Task list", "Index", "Task", new { @class = "nav-link" })
+                    @Html.ActionLink("Task list", "Index", "Task", null, new { @class = "nav-link" })
                 </li>
             </ul>
+            <span class="navbar-text">
+                @{ Html.RenderAction("LoginButton", "User"); }
+            </span>
         </div>
     </nav>
     <div class="container body-content">

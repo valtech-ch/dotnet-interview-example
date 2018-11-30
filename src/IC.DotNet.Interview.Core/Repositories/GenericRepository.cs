@@ -3,6 +3,7 @@ using IC.DotNet.Interview.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace IC.DotNet.Interview.Core.Repositories
 {
@@ -21,6 +22,11 @@ namespace IC.DotNet.Interview.Core.Repositories
         public ICollection<T> Get()
         {
             return _dataset;
+        }
+
+        public IQueryable<T> Get(Expression<Func<T, bool>> expression)
+        {
+            return _dataset.AsQueryable().Where(expression);
         }
 
         public T Get(Guid id)
